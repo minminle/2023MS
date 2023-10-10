@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@include file = "Menu.jsp" %>
 <!DOCTYPE html>
 <html>
 <head><!-- 模板內容稍改而已，待修正 -->
@@ -28,7 +29,7 @@
 </head>
 <body>
 	<!-- Top Bar Start -->
-        <div class="top-bar d-none d-md-block">
+        <!-- <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">
@@ -57,7 +58,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Top Bar End -->
         
         <!-- Nav Bar Start -->
