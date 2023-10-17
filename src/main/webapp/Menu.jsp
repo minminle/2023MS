@@ -29,7 +29,7 @@
 </head>
 <body>
 	<!-- Top Bar Start -->
-        <!-- <div class="top-bar d-none d-md-block">
+        <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">
@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- Top Bar End -->
         
         <!-- Nav Bar Start -->
@@ -72,19 +72,23 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link active">最新消息</a>
+                    	<!-- 原本模板<a href="index.html" class="nav-item nav-link active">Home</a> -->
+                        <a href="index.html" class="nav-item nav-link">活動資訊</a>
                         <a href="about.html" class="nav-item nav-link">蘊星房型</a>
                         <a href="service.html" class="nav-item nav-link">專業照護</a>
-                        <a href="price.html" class="nav-item nav-link">常見問題</a>
+                        <a href="portfolio.html" class="nav-item nav-link">衛教宣導</a>
                         <a href="class.html" class="nav-item nav-link">聯絡我們</a>
                         <a href="team.html" class="nav-item nav-link">預約參觀</a>
-                        <a href="portfolio.html" class="nav-item nav-link">登入</a>
-                        <div class="nav-item dropdown">
+                        <a href="price.html" class="nav-item nav-link">線上購物</a>
+                        <a href="Login.jsp" class="nav-item nav-link">登入</a>
+                        
+                        <!--原本的 <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                             <div class="dropdown-menu">
                                 <a href="blog.html" class="dropdown-item">Blog Grid</a>
                                 <a href="single.html" class="dropdown-item">Blog Detail</a>
-                            </div>
+                            </div> -->
+                            
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
@@ -92,31 +96,5 @@
             </div>
         </div>
         <!-- Nav Bar End -->
-        
-         <!-- Hero Start -->
-        <div class="hero">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="hero-text">
-                            <h1>Yoga Practice For Good Health</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua metus tortor auctor quis sem.
-                            </p>
-                            <div class="hero-btn">
-                                <a class="btn" href="">Join Now</a>
-                                <a class="btn" href="">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 d-none d-md-block">
-                        <div class="hero-image">
-                            <img src="img/hero.png" alt="Hero Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Hero End -->
 </body>
 </html>

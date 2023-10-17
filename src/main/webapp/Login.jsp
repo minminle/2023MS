@@ -14,7 +14,7 @@
 			request.getParameter("MatID")+"'";
 		ResultSet paperrs = smt.executeQuery(getpaperdata);
 	if(paperrs.next()){
-		response.sendRedirect("accesspage.jsp");
+		response.sendRedirect("Home.jsp");
 	}else
 		out.println("帳號密碼不符！請重新登入");
 }
@@ -59,15 +59,15 @@
 						<br/>
 						<br/>
 				    <label for="MatID"><b><h3>密&nbsp;&nbsp;碼:&nbsp;</h3></b></label>
-				    <input type="MatID" placeholder="輸入您的密碼..." name="MatID" required>
+				    <input type="password" placeholder="輸入您的密碼..." name="MatID" required>
 				        <br/>
 				        <br/>
 						    &nbsp;&nbsp;<button type="submit" name="loginBtn" >登入</button>
 						    </div>
 						    <br/><br/>   
-						<h4>  
+						<!-- <h4>  
 							 還沒有帳號？請點選<a href="Home.jsp" class="signbtn">註冊</a>			
-					    </h4>
+					    </h4> -->
 				</div>
 		   </form>
 		</main>
